@@ -76,7 +76,7 @@
 
     <ng-container matColumnDef="FLAG">
         <th mat-header-cell *matHeaderCellDef> FLAG </th>
-        <td mat-cell *matCellDef="let element"> {{element.FLAG}} </td>
+        <td mat-cell *matCellDef="let element" [ngStyle]="{'background-color': element.FLAG.toLowerCase()}" > {{element.FLAG}} </td>
     </ng-container>
 
 
