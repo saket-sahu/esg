@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
@@ -23,6 +23,13 @@ export interface Company {
   name: string;
 }
 
+export interface PeriodicElement {
+  name: string;
+  position: number;
+  weight: number;
+  symbol: string;
+}
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -30,7 +37,7 @@ export interface Company {
 })
 export class HomeComponent {
   filteredOptions: any;
-
+  result: Company[] = [];
   testData: any = [
     {
       Title: 'Home Depot workers petition to form 1st store-wide union',
@@ -1016,6 +1023,21 @@ export class HomeComponent {
     },
   ];
 
+  displayedColumns: string[] = [
+    'name',
+    'ESG_RELEVANT',
+    'PILLAR',
+    'SUB_PILLAR',
+    'PERFORMANCE_INDICATOR',
+    'NATURE_OF_HARM',
+    'SCALE',
+    'CONTROVERSY_ASSESSMENT',
+    'STATUS',
+    'INVOLVED',
+    'FLAG',
+  ];
+  dataSource = this.result;
+
   selectedCompany: Company = { name: '' };
 
   Highcharts: typeof Highcharts = Highcharts;
@@ -1031,6 +1053,8 @@ export class HomeComponent {
   myControl = new FormControl<string | Company>('');
   options: Company[] = this.testData;
 
+  constructor(private changeDetectorRefs: ChangeDetectorRef) {}
+
   ngOnInit() {
     this.filteredOptions = this.myControl.valueChanges.pipe(
       startWith(''),
@@ -1042,9 +1066,11 @@ export class HomeComponent {
   }
 
   onCompanySelect(event: Event, company: Company) {
-    console.log(company);
-
+    this.result = [];
     this.selectedCompany = company;
+    this.result.push(this.selectedCompany);
+    this.dataSource = this.result;
+    this.changeDetectorRefs.detectChanges();
   }
 
   displayFn(Company: Company): string {

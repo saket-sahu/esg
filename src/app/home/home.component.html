@@ -1,5 +1,5 @@
 <form class="example-form">
-    <mat-form-field class="example-full-width" appearance="fill">
+    <mat-form-field class="companyDropdown" appearance="fill">
         <mat-label>Company Name</mat-label>
         <input type="text"  matInput [formControl]="myControl" [matAutocomplete]="auto">
         <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" >
@@ -9,6 +9,81 @@
         </mat-autocomplete>
     </mat-form-field>
 </form>
+
+<table *ngIf="result.length>0"  mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+        The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Company name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="ESG_RELEVANT">
+        <th mat-header-cell *matHeaderCellDef> ESG_RELEVANT </th>
+        <td mat-cell *matCellDef="let element"> {{element.ESG_RELEVANT}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="PILLAR">
+        <th mat-header-cell *matHeaderCellDef> PILLAR </th>
+        <td mat-cell *matCellDef="let element"> {{element.PILLAR}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="SUB_PILLAR">
+        <th mat-header-cell *matHeaderCellDef> SUB_PILLAR </th>
+        <td mat-cell *matCellDef="let element"> {{element.SUB_PILLAR}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="PERFORMANCE_INDICATOR">
+        <th mat-header-cell *matHeaderCellDef> PERFORMANCE_INDICATOR </th>
+        <td mat-cell *matCellDef="let element"> {{element.PERFORMANCE_INDICATOR}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="NATURE_OF_HARM">
+        <th mat-header-cell *matHeaderCellDef> NATURE_OF_HARM </th>
+        <td mat-cell *matCellDef="let element"> {{element.NATURE_OF_HARM}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="SCALE">
+        <th mat-header-cell *matHeaderCellDef> SCALE </th>
+        <td mat-cell *matCellDef="let element"> {{element.SCALE}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="CONTROVERSY_ASSESSMENT">
+        <th mat-header-cell *matHeaderCellDef> CONTROVERSY_ASSESSMENT </th>
+        <td mat-cell *matCellDef="let element"> {{element.CONTROVERSY_ASSESSMENT}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="STATUS">
+        <th mat-header-cell *matHeaderCellDef> STATUS </th>
+        <td mat-cell *matCellDef="let element"> {{element.STATUS}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="INVOLVED">
+        <th mat-header-cell *matHeaderCellDef> INVOLVED </th>
+        <td mat-cell *matCellDef="let element"> {{element.INVOLVED}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="FLAG">
+        <th mat-header-cell *matHeaderCellDef> FLAG </th>
+        <td mat-cell *matCellDef="let element"> {{element.FLAG}} </td>
+    </ng-container>
+
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
 
 <!-- <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions"
     style="width: 100%; height: 400px; display: block;"></highcharts-chart> -->
