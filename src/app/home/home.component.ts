@@ -1,13 +1,16 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, Inject } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
 import * as Highcharts from 'highcharts';
 
 import { dataList } from './../apiData';
+import { MatDialog } from '@angular/material/dialog';
+import { NewsComponent } from './news/news.component';
+import { News } from './news/news.interface';
 
-export interface Company {
+export interface NewsClassisfication {
   Title?: string;
+  News?: string;
   COMPANY_NAME?: string;
   ESG_RELEVANT?: Number;
   PERFORMANCE_INDICATOR?: string;
@@ -37,18 +40,26 @@ export interface PeriodicElement {
 })
 export class HomeComponent {
   rawDataList: any = dataList;
-
+  worstNews: News = {};
   companyESG_flag: string = 'green';
   companyInfo: string = '';
   filteredOptions: any;
   showChart: boolean = false;
-  result: Company[] = [];
+  result: NewsClassisfication[] = [];
   Highcharts: typeof Highcharts = Highcharts;
   dataSource = this.result;
-  selectedCompany: Company = { name: '' };
-  myControl = new FormControl<string | Company>('');
-  options: Company[] = this.rawDataList
-    .map((item: Company) => {
+  selectedCompany: NewsClassisfication = { name: '' };
+  myControl = new FormControl<string | NewsClassisfication>('');
+  options: NewsClassisfication[] = this.rawDataList
+    .filter((item: any) => item.ESG_RELEVANT)
+    .filter(
+      (
+        value: NewsClassisfication,
+        index: number,
+        self: NewsClassisfication[]
+      ) => index === self.findIndex((t) => t.name === value.name)
+    )
+    .map((item: NewsClassisfication) => {
       if (item.name == null) {
         item.name = 'Other';
       }
@@ -61,11 +72,7 @@ export class HomeComponent {
       }
 
       return item;
-    })
-    .filter(
-      (value: Company, index: number, self: Company[]) =>
-        index === self.findIndex((t) => t.name === value.name)
-    );
+    });
 
   columnChartOptions = {
     chart: {
@@ -89,15 +96,6 @@ export class HomeComponent {
         text: 'Number of controvery',
       },
     },
-    // tooltip: {
-    //   headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-    //   pointFormat:
-    //     '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-    //     '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>',
-    //   footerFormat: '</table>',
-    //   shared: true,
-    //   useHTML: true,
-    // },
     plotOptions: {
       column: {
         pointPadding: 0.2,
@@ -133,6 +131,7 @@ export class HomeComponent {
   displayedColumns: string[] = [
     // 'name',
     // 'ESG_RELEVANT',
+    'Title',
     'PILLAR',
     'SUB_PILLAR',
     'PERFORMANCE_INDICATOR',
@@ -202,7 +201,10 @@ export class HomeComponent {
     ],
   } as any;
 
-  constructor(private changeDetectorRefs: ChangeDetectorRef) {}
+  constructor(
+    private changeDetectorRefs: ChangeDetectorRef,
+    public dialog: MatDialog
+  ) {}
 
   ngOnInit() {
     this.filteredOptions = this.myControl.valueChanges.pipe(
@@ -214,7 +216,7 @@ export class HomeComponent {
     );
   }
 
-  onCompanySelect(event: Event, company: Company) {
+  onCompanySelect(event: Event, company: NewsClassisfication) {
     this.showChart = false;
     this.result = [];
     this.selectedCompany = company;
@@ -234,9 +236,24 @@ export class HomeComponent {
   }
 
   _createInfo() {
+    let newsList: NewsClassisfication[];
+
     this.companyInfo = '';
     this.companyESG_flag = this._getFlag();
-    this.companyInfo = `<b>${this.selectedCompany.name} </b>  ESG Flag is ${this.companyESG_flag}`;
+
+    newsList = this.rawDataList.filter(
+      (item: NewsClassisfication) =>
+        item.FLAG?.toLocaleLowerCase() ==
+        this.companyESG_flag.toLocaleLowerCase()
+    );
+
+    this.worstNews = { title: newsList[0].Title, data: newsList[0].News };
+
+    this.companyInfo = `Company <b>${this.selectedCompany.name} </b>  has scored  ESG Flag  <span style="background-color:${this.companyESG_flag}"> ${this.companyESG_flag} </span>`;
+  }
+
+  showPopUp() {
+    alert('popup clicked');
   }
 
   _getFlag() {
@@ -258,9 +275,13 @@ export class HomeComponent {
     return flag;
   }
   _createTable() {
-    this.result = this.rawDataList.filter(
-      (item: Company) => item.name == this.selectedCompany.name
-    );
+    this.result = this.rawDataList.filter((item: NewsClassisfication) => {
+      if (this.selectedCompany.name == 'Other' && item.name == null) {
+        return true;
+      } else {
+        return item.name == this.selectedCompany.name;
+      }
+    });
     this.dataSource = this.result;
   }
 
@@ -373,15 +394,32 @@ export class HomeComponent {
     ];
   }
 
-  displayFn(Company: Company): string {
+  displayFn(Company: NewsClassisfication): string {
     return Company && Company.name ? Company.name : '';
   }
 
-  private _filter(name: string): Company[] {
+  private _filter(name: string): NewsClassisfication[] {
     const filterValue = name.toLowerCase();
 
     return this.options.filter((option) =>
       option.name.toLowerCase().includes(filterValue)
     );
+  }
+
+  openDialog(): void {
+    if (this.worstNews.title) {
+      const dialogRef = this.dialog.open(NewsComponent, {
+        width: '250px',
+        // data: { title: this.worstNews.title, data: this.worstNews.data },
+        data: {
+          title: this.worstNews.title,
+          data: this.worstNews.data,
+        },
+      });
+
+      dialogRef.afterClosed().subscribe((result) => {
+        console.log('The dialog was closed');
+      });
+    }
   }
 }

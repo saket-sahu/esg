@@ -13,9 +13,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { ToolComponent } from './tool/tool.component';
+import { NewsComponent } from './home/news/news.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ToolComponent],
+  declarations: [AppComponent, HomeComponent, ToolComponent, NewsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
