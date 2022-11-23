@@ -42,6 +42,9 @@ export class HomeComponent {
   rawDataList: any = dataList;
   worstNews: News = {};
   companyESG_flag: string = 'green';
+  Environment_flag: string = 'red';
+  Social_flag: string = 'green';
+  Governance_flag: string = 'orange';
   companyInfo: string = '';
   filteredOptions: any;
   showChart: boolean = false;
@@ -111,7 +114,7 @@ export class HomeComponent {
       margin: [50, 50, 100, 80],
     },
     title: {
-      text: 'Controversy',
+      text: 'Controversy State',
     },
     xAxis: {
       categories: ['Red', 'Orange', 'Yellow', 'Green'],
@@ -131,7 +134,7 @@ export class HomeComponent {
   displayedColumns: string[] = [
     // 'name',
     // 'ESG_RELEVANT',
-    'Title',
+    // 'Title',
     'PILLAR',
     'SUB_PILLAR',
     'PERFORMANCE_INDICATOR',
@@ -151,7 +154,7 @@ export class HomeComponent {
       type: 'pie',
     },
     title: {
-      text: 'ESG classification',
+      text: 'Classification %',
     },
     tooltip: {
       pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
@@ -173,7 +176,7 @@ export class HomeComponent {
     },
     series: [
       {
-        name: 'Controversy',
+        name: 'Controversy State',
         colorByPoint: true,
         data: [
           {
@@ -239,7 +242,16 @@ export class HomeComponent {
     let newsList: NewsClassisfication[];
 
     this.companyInfo = '';
-    this.companyESG_flag = this._getFlag();
+    this.companyESG_flag = this._getFlag(this.result);
+    this.Environment_flag = this._getFlag(
+      this.result.filter((item) => item.PILLAR == 'Environment')
+    );
+    this.Social_flag = this._getFlag(
+      this.result.filter((item) => item.PILLAR == 'Social')
+    );
+    this.Governance_flag = this._getFlag(
+      this.result.filter((item) => item.PILLAR == 'Governance')
+    );
 
     newsList = this.rawDataList.filter(
       (item: NewsClassisfication) =>
@@ -248,18 +260,13 @@ export class HomeComponent {
     );
 
     this.worstNews = { title: newsList[0].Title, data: newsList[0].News };
-
     this.companyInfo = `Company <b>${this.selectedCompany.name} </b>  has scored  ESG Flag  <span style="background-color:${this.companyESG_flag}"> ${this.companyESG_flag} </span>`;
   }
 
-  showPopUp() {
-    alert('popup clicked');
-  }
-
-  _getFlag() {
+  _getFlag(list: NewsClassisfication[]) {
     let flag = 'green';
 
-    this.result.forEach((item) => {
+    list.forEach((item) => {
       if (item.FLAG?.toLowerCase() == 'red') {
         flag = 'red';
       } else if (
@@ -407,7 +414,7 @@ export class HomeComponent {
   }
 
   openDialog(): void {
-    if (this.worstNews.title) {
+    if (this.worstNews.data) {
       const dialogRef = this.dialog.open(NewsComponent, {
         width: '250px',
         // data: { title: this.worstNews.title, data: this.worstNews.data },

@@ -14,11 +14,33 @@
             </mat-form-field>
         </form>
     </div>
-    <div>
-        <div *ngIf="result.length>0" class="flex-container ">
+    <div class="flex-container">
+        <div *ngIf="result.length>0" class="flex-container">
             <mat-card [ngStyle]="{'background-color': companyESG_flag}" (click)="openDialog()">
                 <mat-card-content>
                     <div [innerHtml]="companyInfo"></div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+        <div *ngIf="result.length>0" class="flex-container">
+            <mat-card [ngStyle]="{'background-color': Environment_flag, 'margin-left':'2px'}" (click)="openDialog()">
+                <mat-card-content class="flex-container">
+                    <span >Environment</span>
+                    
+                </mat-card-content>
+            </mat-card>
+            <mat-card [ngStyle]="{'background-color': Social_flag,'margin-left':'2px'}" (click)="openDialog()">
+                <mat-card-content class="flex-container">
+                    
+                    <span >Social</span>
+                    
+                </mat-card-content>
+            </mat-card>
+            <mat-card [ngStyle]="{'background-color': Governance_flag,'margin-left':'2px'}" (click)="openDialog()">
+                <mat-card-content class="flex-container">
+                   
+                    <span >Governance</span>
                 </mat-card-content>
             </mat-card>
         </div>
@@ -29,10 +51,10 @@
 <table *ngIf="result.length>0"  mat-table [dataSource]="dataSource" class="mat-elevation-z8 esg_table mrgtop20">
 
 
-    <ng-container matColumnDef="Title">
+    <!-- <ng-container matColumnDef="Title">
         <th mat-header-cell *matHeaderCellDef> News Title </th>
         <td mat-cell *matCellDef="let element"> {{element.Title}} </td>
-    </ng-container>
+    </ng-container> -->
     <ng-container matColumnDef="PILLAR">
         <th mat-header-cell *matHeaderCellDef> Pillar </th>
         <td mat-cell *matCellDef="let element"> {{element.PILLAR}} </td>
