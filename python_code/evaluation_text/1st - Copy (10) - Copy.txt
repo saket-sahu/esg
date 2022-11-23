@@ -1,0 +1,27 @@
+"The record-vying distributed denial-of-service attacks keep coming, with two mitigation services reporting they encountered some of the biggest data bombardments ever by threat actors whose tactics and techniques are constantly evolving.
+
+On Monday, Imperva said it defended a customer against an attack that lasted more than four hours and peaked at more than 3.9 million requests per second (RPS).
+
+In all, the attackers directed 25.3 billion requests at the target with an average rate of 1.8 million RPS. While DDoSes exceeding 1 million RPS are growing increasingly common, they typically come in shorter bursts that measure in seconds or a few minutes at most.
+
+A massive botnet
+
+""[The] attackers used HTTP/2 multiplexing, or combining multiple packets into one, to send multiple requests at once over individual connections,"" Imperva's Gabi Stapel wrote. ""This technique can bring servers down using a limited number of resources, and such attacks are extremely difficult to detect.""
+
+Stapel said that the attack likely would have peaked at an even higher rate had it not been countered by Akamai's mitigation service. The target of the DDoS was a Chinese telecommunications company that has come under attack before.
+
+Advertisement
+
+The attack originated with a botnet of routers, security cameras, and hacked servers connected to almost 170,000 different IP addresses. The IP addresses were located in more than 180 countries, with the US, Indonesia, and Brazil being the most common. Some of the botnet devices were hosted on various public clouds, including those offered by security service providers.
+
+The arms race continues
+
+Last week, Akamai said it recently defended a customer in Eastern Europe against a record-setting attack of 704.8 million packets per second. The same customer, Akamai said, had already set a record in July when it experienced a 659.6 Mpps DDoS from the same threat actor.
+
+The latest attack sprayed packets at six global locations the target maintains, from Europe to North America.
+
+""The attackers' command and control system had no delay in activating the multidestination attack, which escalated in 60 seconds from 100 to 1,813 IPs active per minute,"" Akamai's Craig Sparling wrote. ""Those IPs were spread across eight distinct subnets in six distinct locations. An attack this heavily distributed could drown an underprepared security team in alerts, making it difficult to assess the severity and scope of the intrusion, let alone fight the attack.""
+
+DDoS attacks can be measured in several ways, including by the volume of data, the number of packets, or the number of requests sent each second. The current records include 3.4 terabits per second for volumetric DDoSesâ€”which attempt to consume all bandwidth available to the targetâ€”809 million packets per second and 17.2 million RPS. The latter two records measure the power of application-layer attacks, which attempt to exhaust the computing resources of a target's infrastructure.
+
+The ever-increasing numbers underscore the arms race between attackers and defenders as each attempt to outdo the other. These record-setting numbers aren't likely to stop any time soon."
