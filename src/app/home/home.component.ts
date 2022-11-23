@@ -8,17 +8,19 @@ import { dataList } from './../apiData';
 
 export interface Company {
   Title?: string;
+  COMPANY_NAME?: string;
   ESG_RELEVANT?: Number;
-  PERFORMANCE_INDICATOR?: Number;
-  SCALE?: Number;
-  NATURE_OF_HARM?: Number;
+  PERFORMANCE_INDICATOR?: string;
+  SCALE?: string;
+  NATURE_OF_HARM?: string;
   PILLAR?: string;
   SUB_PILLAR?: string;
-  CONTROVERSY_ASSESSMENT?: 4;
-  STATUS?: Number;
-  INVOLVED?: Number;
+  CONTROVERSY_ASSESSMENT?: string;
+  STATUS?: string;
+  INVOLVED?: string;
   FLAG?: string;
   name: string;
+  FLAG_SCORE?: number;
 }
 
 export interface PeriodicElement {
@@ -45,7 +47,25 @@ export class HomeComponent {
   dataSource = this.result;
   selectedCompany: Company = { name: '' };
   myControl = new FormControl<string | Company>('');
-  options: Company[] = this.rawDataList;
+  options: Company[] = this.rawDataList
+    .map((item: Company) => {
+      if (item.name == null) {
+        item.name = 'Other';
+      }
+      if (item.COMPANY_NAME == null) {
+        item.COMPANY_NAME = 'Other';
+      }
+      if (item.FLAG == null) {
+        item.FLAG = 'Green';
+        item.FLAG_SCORE = 9.0;
+      }
+
+      return item;
+    })
+    .filter(
+      (value: Company, index: number, self: Company[]) =>
+        index === self.findIndex((t) => t.name === value.name)
+    );
 
   columnChartOptions = {
     chart: {
