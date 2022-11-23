@@ -9,4 +9,28 @@
 
 .esg_table{
     padding: 10px;
+    th{
+        background-color: lightgray;
+    }
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-container>div {
+
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.mrgtop50{
+    margin-top: 50px;
+}
+
+.mrgtop20 {
+    margin-top: 20px;
 }

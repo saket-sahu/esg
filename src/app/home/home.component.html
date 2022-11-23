@@ -8,32 +8,25 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
+    
 </form>
 
-<table *ngIf="result.length>0"  mat-table [dataSource]="dataSource" class="mat-elevation-z8 esg_table">
+<div *ngIf="result.length>0" class="flex-container mrgtop20">
+    <mat-card>
+        <mat-card-content> 
+            <div [innerHtml]="companyInfo"></div> </mat-card-content>
+    </mat-card>
+</div>
 
-    <!--- Note that these columns can be defined in any order.
-        The actual rendered columns are set as a property on the row definition" -->
-<!-- 
-    Position Column -->
-    <!-- <ng-container matColumnDef="name">
-        <th mat-header-cell *matHeaderCellDef> Company name </th>
-        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
-    </ng-container> -->
+<table *ngIf="result.length>0"  mat-table [dataSource]="dataSource" class="mat-elevation-z8 esg_table mrgtop20">
 
-    <!-- Name Column -->
-    <!-- <ng-container matColumnDef="ESG_RELEVANT">
-        <th mat-header-cell *matHeaderCellDef> ESG_RELEVANT </th>
-        <td mat-cell *matCellDef="let element"> {{element.ESG_RELEVANT}} </td>
-    </ng-container> -->
 
-    <!-- Weight Column -->
     <ng-container matColumnDef="PILLAR">
         <th mat-header-cell *matHeaderCellDef> Pillar </th>
         <td mat-cell *matCellDef="let element"> {{element.PILLAR}} </td>
     </ng-container>
 
-    <!-- Symbol Column -->
+
     <ng-container matColumnDef="SUB_PILLAR">
         <th mat-header-cell *matHeaderCellDef> Sub pillar </th>
         <td mat-cell *matCellDef="let element"> {{element.SUB_PILLAR}} </td>
@@ -85,9 +78,23 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
 
-<div fxLayout="row" fxLayoutAlign="space-around center">
 
+<div class="flex-container mrgtop50">
+    
+       
+            <!-- <div >
+                <highcharts-chart *ngIf="showChart" [Highcharts]="Highcharts" [options]="columnChartOptions"
+                    style="width: 100%; height: 400px; display: block;"></highcharts-chart>
+            </div> -->
+            <div >
+                <highcharts-chart *ngIf="showChart" [Highcharts]="Highcharts" [options]="column1ChartOptions"
+                    style="width: 100%; height: 400px; display: block;"></highcharts-chart>
+            </div>
+            <div >
+                <highcharts-chart *ngIf="showChart" [Highcharts]="Highcharts" [options]="pieChartOptions"
+                    style="width: 100%; height: 400px; display: block;"></highcharts-chart>
+            </div>    
+       
+   
 </div>
 
-<highcharts-chart *ngIf="showChart" [Highcharts]="Highcharts" [options]="chartOptions"
-    style="width: 100%; height: 400px; display: block;"></highcharts-chart>
