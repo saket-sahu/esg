@@ -1,0 +1,68 @@
+**The .gov means it’s official.**  
+Federal government websites often end in .gov or .mil. Before sharing
+sensitive information, make sure you're on a federal government site.
+
+
+
+ **The site is secure.**  
+The **https://** ensures that you are connecting to the official website and
+that any information you provide is encrypted and transmitted securely.
+
+
+
+ _The FDA has identified this as a Class I recall, the most serious type of
+recall. Use of these devices may cause serious injuries or death._
+
+
+
+Medtronic Cobalt/Crome Implantable Cardioverter Defibrillators (ICDs) and
+Cardiac Resynchronization Therapy Defibrillators (CRT-Ds) are implantable
+cardiac devices that are intended to monitor and regulate heart rate and
+rhythm. These devices can deliver a pacing impulse to correct a slow heartbeat
+(bradycardia), provide biventricular pacing/cardiac resynchronization therapy,
+or produce an electric shock (cardioversion or defibrillation) to restore a
+regular heartbeat if a life-threatening arrhythmia occurs.
+
+
+
+Medtronic is recalling Cobalt/Crome Implantable Cardioverter Defibrillators
+(ICDs) and Resynchronization Therapy Defibrillators (CRT-Ds) after receiving
+reports of devices with a short circuit protection (SCP) alert resulting in
+reduced-energy electric shock delivery, instead of delivering a second phase
+of high voltage therapy.
+
+
+
+A reduced-energy electrical shock may fail to correct an irregular heartbeat
+(arrythmia) or may cause an irregular heartbeat. The harms associated with a
+reduced-energy electric shock or an inaccurate response to an SCP alert may
+cause serious injury or death.
+
+
+
+There have been 27 complaints, no injuries, and no deaths associated with this
+issue.
+
+
+
+On June 22, 2022, Medtronic issued a communication to customers. The
+communication offered the following patient management recommendations and
+considerations to customers and/or users:
+
+
+
+Customers with questions or concerns about this recall should contact
+Medtronic Technical Services (1-800-723-4636) or their local Medtronic
+representative.
+
+
+
+Healthcare professionals and consumers may report adverse reactions or quality
+problems they experienced using these devices to MedWatch: The FDA Safety
+Information and Adverse Event Reporting Program using an online form, regular
+mail, or FAX.
+
+
+
+08/19/2022
+

@@ -1,0 +1,142 @@
+August 9
+
+
+
+Ben Lovejoy
+
+
+
+\- Aug. 9th 2022 4:34 am PT
+
+
+
+@benlovejoy
+
+
+
+ _Update: A federal judge has now approved the settlement – see bottom of
+piece for details_
+
+
+
+An iCloud class action lawsuit has been settled out of court, with Apple
+agreeing to pay a total of $14.8M to US residents subscribing to one of the
+paid storage tiers during a specific time period.
+
+
+
+The payout was agreed upon after it was alleged that Apple breached the
+service terms and conditions by storing user data on non-Apple servers …
+
+
+
+
+
+_Macworld_ reports.
+
+
+
+Apple has agreed to a $14.8 million settlement “for breach of contract
+regarding the iCloud Service that Apple provides to its users.” The crux of
+the case is that Apple breached the iCloud Terms and Conditions by storing
+iCloud user data using third-party servers rather than its own.
+
+
+
+The settlement includes anyone who paid for a subscription to iCloud at any
+time from September 16, 2015, to January 31, 2016. You don’t need to do
+anything to join the class. As long as the email you used to sign up for
+iCloud storage during that time is still active you should receive a
+notification that you are a class member.
+
+
+
+Apple denies any wrong-doing, but it has agreed to pay the sum to avoid a
+trial.
+
+
+
+A website for the lawsuit explains how payment will be made.
+
+
+
+If, at the time the Class Payment is distributed, you are a subscriber to any
+kind of monthly paid iCloud plan, and you have a U.S. mailing address
+associated with your plan, you will automatically receive the Class Payment to
+the Apple account that pays for your current monthly iCloud subscription.
+
+
+
+If, at the time the Class Payment is distributed, you are no longer a
+subscriber to any kind of monthly paid iCloud plan, or you do not have a U.S.
+mailing address associated with your plan, you will receive the Class Payment
+by check at the mailing address associated with your account.
+
+
+
+You don’t need to take any action at this stage: those eligible for a payout
+will receive an email with details.
+
+
+
+As always with class action lawsuits, don’t expect the payment to be anything
+significant. The lawyers take their cut off the top, and then the balance is
+distributed between, typically, millions of people. In this case, the awards
+will be pro-rata to your storage tier – in other words, those subscribed to
+the 1TB tier will receive more than those on the 50GB or 200GB tiers.
+
+
+
+ _Update: Although out-of-court settlements are agreements between the
+parties, it is still necessary in many jurisdictions for a judge to approve
+the deal as fair._Patently Apple _spotted that this approvalhas now been
+granted._
+
+
+
+ _Photo:Kaleidico/Unsplash_
+
+
+
+_Add 9to5Mac to your Google News feed._ Google News google-news
+
+
+
+_FTC: We use income earning auto affiliate links._ More.
+
+
+
+Check out 9to5Mac on YouTube for more Apple news:
+
+
+
+iCloud is built into every Apple device, so that means your photos, files,
+notes, and more — are safe, up to date, and available wherever you are.
+
+
+
+@benlovejoy
+
+
+
+Ben Lovejoy is a British technology writer and EU Editor for 9to5Mac. He’s
+known for his op-eds and diary pieces, exploring his experience of Apple
+products over time, for a more rounded review. He also writes fiction, with
+two technothriller novels, a couple of SF shorts and a rom-com!
+
+
+
+iPhone 15 could feature rounded titanium design
+
+
+
+Tesla teases Apple Music integration coming soon
+
+
+
+OLED iPad: Here’s everything we know
+
+
+
+Hands-on: The best Mac accessories
+

@@ -1,0 +1,68 @@
+South Korea has hit Google and Meta with a fine of ~$71.8 million (100 billion
+KRW) after finding they violated the country’s privacy law, South Korean
+authorities said on Wednesday.
+
+
+
+The watchdog said in its statement that Google and Meta did not receive
+legitimate consent in the process of collecting information from users who
+visit their websites and use other websites as well as apps for customized
+advertisements.
+
+
+
+Google did not clearly inform users of the collection and use of other
+companies’ behavioral information when they signed up for its service and set
+the default choice to “agree” while covering up further options available via
+the setting screen, the country’s authorities explained in the press release.
+Meta also did not specify legally required details that consumers must know
+and did not obtain users’ consent as the company gathered and used their
+behavior information for personalized advertisements when users signed up,
+according to a spokesperson at the Personal Information Protection Commission
+(PIPC).
+
+
+
+The PIPC ordered the companies to correct the violations and imposed fines of
+69.2 billion KRW (~$50 million) on Google and 30.8 billion KRW (~$22 million)
+on Meta.
+
+
+
+This is the largest penalty in South Korea for violating personal information
+protection laws and the country’s first sanction pertaining to the collection
+and use of behavioral information on online customized advertising platforms,
+according to the watchdog.
+
+
+
+“While we respect the PIPC’s decision, we are confident that we work with our
+clients in a legally compliant way that meets the processes required by local
+regulations,” a Meta spokesperson told TechCrunch. “As such, we do not agree
+with the commission’s decision and will be open to all options, including
+seeking a ruling from the court.”
+
+
+
+Overseas watchdogs have fined Google and Meta for failing to comply with data
+protection regulations in recent years. In 2019, the French data protection
+watchdog, the CNIL, issued its first General Data Protection Regulation fine
+of $57 million for transparency and consent violations. While Facebook-owned
+WhatsApp was fined $267 million for breaching GDPR’s transparency principle
+last year, Germany’s Federal Cartel Office has also ordered a limit on Meta’s
+data gathering on users from third-party websites without their permission.
+That order remains under legal challenge in the EU.
+
+
+
+“We disagree with the PIPC’s findings and will be reviewing the full written
+decision once it’s shared with us,” a spokesperson at Google said. “We’ve
+always demonstrated our commitment to making ongoing updates that give users
+control and transparency while providing the most helpful products possible.
+We remain committed to engaging with the PIPC to protect the privacy of South
+Korean users.”
+
+
+
+ _Updated with comments from PIPC and Google._
+

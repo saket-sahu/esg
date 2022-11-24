@@ -1,0 +1,531 @@
+Search
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+VIDEO
+
+
+
+CASE STUDY
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+REPORT
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ARTICLE
+
+
+
+ADVISORY
+
+
+
+WHITE PAPER
+
+
+
+REPORT
+
+
+
+WEBCAST SERIES
+
+
+
+ARTICLE
+
+
+
+CAPABILITIES
+
+
+
+WHITE PAPER
+
+
+
+ARTICLE
+
+
+
+HR SERVICES
+
+
+
+TOOL
+
+
+
+SURVEY REPORT
+
+
+
+INSIGHTS
+
+
+
+WHITE PAPER
+
+
+
+INDUSTRY INTERSECTION
+
+
+
+ARTICLE
+
+
+
+UNEXPECTATIONS
+
+
+
+ABOUT US
+
+
+
+CORPORTATE SOCIAL RESPONSIBILITY
+
+
+
+READY
+
+
+
+Profile and Subscriptions
+
+
+
+Global Location
+
+
+
+Profile Management
+
+
+
+Global Locations
+
+
+
+Search
+
+
+
+On Aug. 4, 2021, a Pennsylvania federal court dismissed a class action lawsuit
+against Walmart Stores, Inc. (Walmart) alleging the improper collection of
+Pennsylvania sales tax on sales of 5-Hour Energy drinks.1 On behalf of a class
+of taxpayers, the taxpayer asserted that Walmart’s collection of sales tax on
+dietary supplements violated the Pennsylvania Unfair Trade Practices and
+Consumer Protection Law (UTPCPL) and also amounted to conversion, unjust
+enrichment and breach of constructive trust under common-law claims. However,
+the Court dismissed the case for failure to state a claim upon which relief
+can be granted, finding that a retailer’s incorrect collection of sales tax is
+not conduct covered by the UTPCPL, and that the taxpayer could seek a sales
+tax refund through a state administrative process.  
+
+
+
+
+
+
+
+
+
+
+
+On two separate occasions in late 2019 and early 2020, taxpayer Christopher
+Lisowski purchased 5-Hour Energy drinks from a Walmart store in Pittsburgh,
+Pennsylvania. During both transactions, Walmart charged the taxpayer sales tax
+at a rate of 7%.2 The taxpayer argued that sales of 5-Hour Energy drinks are
+exempt from Pennsylvania sales and use tax because the drink is marketed as a
+dietary supplement. The taxpayer cited to Pennsylvania Department of Revenue
+(Department) guidance confirming that dietary supplements and substitutes, in
+any form, are exempt from sales tax.3 Walmart nonetheless charged sales tax on
+sales of the drinks, forming the basis of the taxpayer’s federal class action
+lawsuit.  
+  
+Before the Court, Walmart filed a motion to dismiss the lawsuit for failure to
+state a claim upon which relief can be granted.4 In federal court, a motion to
+dismiss for failure to state a claim is a defense available under the Federal
+Rules of Civil Procedure.5 While the defense does not resolve the underlying
+questions of law, the court must determine whether the plaintiff has “plead a
+plausible claim for relief.”6  
+
+
+
+
+
+
+
+
+
+
+
+In his complaint, the taxpayer first argued that the UTPCPL protects consumers
+from the allegedly improper collection of Pennsylvania sales and use tax.
+Specifically, the taxpayer alleged that Walmart’s conduct violated the
+provision of the consumer protection law prohibiting unfair or deceptive
+activity “in the conduct of any trade or commerce.”7 In response, Walmart
+argued that the UTPCPL does not cover sales and use taxes because collection
+of sales and use taxes is not act in the conduct of “trade or commerce”
+regulated by the UTPCPL.  
+  
+For purposes of the motion to dismiss, the court assumed that sales of 5-Hour
+Energy drinks are not taxable and that Walmart incorrectly collected sales
+tax.8 The UTPCPL protects consumers from unfair and deceptive practices in
+“trade or commerce,” defined as the advertising, sale or distribution of
+services or products.9 Although there was no question that Walmart engages in
+“trade or commerce,” the Court ultimately determined that Walmart’s collection
+of sales tax was not an act in the conduct of such commercial activity.
+Acknowledging that Pennsylvania courts have not directly addressed the
+UTPCPL’s “trade or commerce” limitation in the context of a case alleging
+improper collection of sales tax, the Court considered a recent federal court
+decision applying Pennsylvania law. In that case, the court ruled that the
+collection of sales tax did not qualify as “trade or commerce” under the
+UTPCPL.10 The court reasoned that retailers collect sales tax because they are
+required to do so by law and they receive no benefit or profit from collecting
+such taxes.  
+  
+The Court also cited approvingly to several state court decisions which
+determined that similar state consumer protection laws – all based on the
+Federal Trade Commission Act – do not cover the collection of sales and use
+taxes.11 The Court found these decisions to be persuasive and consistent with
+the language of the UTPCPL. Based on these decisions, the Court concluded that
+the UTPCPL did not regulate activity disconnected from Walmart’s commercial
+interests, including tax collection.  
+  
+The Court likewise rejected the taxpayer’s arguments that the Pennsylvania
+Fair Credit Extension Uniformity Act (FCEUA) allows enforcement under the
+UTPCPL, and that Walmart profited from the collection of sales and use taxes.
+The Court concluded that the FCEUA included no language indicating that the
+collection of sales taxes is actionable under the UTPCPL. Additionally, the
+Court concluded that any tax credits received by Walmart in collecting sales
+tax was in its capacity as a retailer collecting taxes for the state and was
+“motivated by a public duty rather than private gain.”12 For these reasons,
+the Court dismissed the taxpayer’s UTPCPL claim.
+
+
+
+
+
+
+
+
+
+
+
+The taxpayer’s other claims were based in common law, a system of judicially
+created laws based on fairness principles. Here, the taxpayer alleged the
+common-law claims of conversion, unjust enrichment, and breach of constructive
+trust. In response, Walmart contended that a statutory remedy was available to
+the taxpayer under Pennsylvania law, thus barring his common-law claims.  
+  
+The Court agreed that the taxpayer’s common-law claims were barred because
+Pennsylvania law provides an adequate remedy in the form of requesting a
+refund of improperly collected sales tax from the Department. Pursuant to the
+Pennsylvania Statutory Construction Act, where Pennsylvania law provides a
+statutory remedy, all common-law claims are barred.13  
+  
+After determining that Pennsylvania’s statutory-remedy rule is substantive law
+that may be applied in federal court, the Court considered the issue of
+whether Pennsylvania law provides an exclusive and adequate remedy to the
+taxpayer. Under Pennsylvania’s law, taxpayers may petition the Department for
+a refund of overpaid tax to which the Commonwealth is not entitled.14 First,
+the Court found that the relevant statutory provisions established a “clear
+procedure” for taxpayers to obtain refunds of improperly collected sales tax.
+Next, the Court concluded that the available remedy was “exclusive” and
+“adequate” as supported by Pennsylvania case law.15 Accordingly, the Court
+concluded that the taxpayer was not permitted to any common-law relief and
+dismissed the remaining claims.  
+
+
+
+
+
+
+
+
+
+
+
+The dismissal of the _Lisowski_ case is representative of a growing trend by
+federal courts to dismiss sales tax cases or deny injunctive relief where an
+alternative remedy is available to the taxpayer at the state level.16 In
+granting Walmart’s motion to dismiss, the court foreclosed any future
+possibility of a class action lawsuit in federal court.17 Reasoning that
+retailers collect sales tax as agents of the Commonwealth, the Court also
+refused to expand the scope of Pennsylvania’s consumer protection law to
+include sales tax collection. Ultimately, the Court’s decision is
+representative of the high bar that exists for sales tax cases to proceed in
+federal court, a forum that many consider to be more taxpayer-friendly with
+respect to state tax matters than state administrative tribunals or state
+courts.  
+  
+Without an option to pursue their claims in federal court, impacted taxpayers
+are limited to filing refund petitions individually with the Department, which
+carries its own restrictions and drawbacks. Pennsylvania’s administrative
+petition process does not allow class actions and taxpayers must file refund
+petitions within a three-year period from the date which the tax was paid.18
+Allowing taxpayers to sue under the UTPCPL or under common-law causes of
+action may have exposed Walmart and similar retailers to potentially large
+damage amounts if the taxpayers were ultimately successful on the merits of
+the lawsuit. From the taxpayer’s perspective, a federal court class action
+lawsuit would have been a more procedurally efficient process for seeking
+relief given the larger aggregate tax dollars at stake.  
+  
+For smaller appeals where a relatively minor amount of sales tax is at issue,
+the costs of filing a refund petition would greatly exceed the amount of the
+potential refund sought on an individual basis. In theory, retailers may
+systematically charge sales tax on certain allegedly non-taxable products,
+which may not be revealed or addressed until a state audit, because individual
+taxpayers would lack the incentive to pursue such refunds. Likewise, states
+including Pennsylvania are not motivated to provide credits to vendors for
+over-collected sales tax under audit based on revenue collection
+considerations. From a consumer protection perspective, the practical issues
+presented in the _Lisowski_ case may provide potential reasons for adjusting
+the administrative tax appeals process to allow for class action lawsuits and
+other reforms in order to facilitate greater retailer accountability without
+unduly burdening retailers.
+
+
+
+
+
+
+
+1 _Lisowski v. Walmart Stores_ , No. 2:20-cv-1729-NR, U.S. District Court for
+the Western District of Pennsylvania, Aug. 4, 2021.  
+2 The 7% sales tax rate consists of a 6% state rate plus an additional 1%
+local rate levied by Allegheny County.  
+3 See Form REV-717, _Retailers’ Information Guide_ , Pennsylvania Department
+of Revenue, Feb. 2021; 72 PA. STAT. § 7204(29).  
+4 Walmart also argued that the taxpayer’s claims are barred by the voluntary-
+payment doctrine and because the taxpayer failed to allege deceptive conduct
+or justifiable reliance to support a UTPCPL claim, but the court did not
+consider these arguments since it dismissed the lawsuit on other grounds.  
+5 FED. R. CIV. P. 12(b)(6).  
+6 Citing _Kehr Packages, Inc. v. Fidelcor, Inc_., 926 F.2d 1406, 1409 (3d Cir.
+1991).  
+7 73 PA. STAT. § 201-3(a).  
+8 The Court did not address the question of whether sales of 5-Hour Energy
+drinks were in fact taxable under Pennsylvania law.  
+9 73 PA. STAT. § 201-2(3).  
+10 _McLean v. Big Lots Inc._ , No. 20-2000, 2021 WL 2317417 (W.D. Pa. June 7,
+2021).  
+11 Citing _Feeney v. Dell, Inc._ , 908 N.E.2d 753, 770 (Mass. 2009); _Blass v.
+Rite Aid of Connecticut, Inc._ , 16 A.3d 855, 863 (Conn. Super. Ct. 2009),
+_aff’d_ , 16 A.3d 737 (Conn. App. 2011).  
+12 Prior to August 1, 2016, retailers received a tax credit equal to 1% of all
+sales tax collected from each consumer under Pennsylvania law. In August 2016,
+the law was changed to provide retailers with a flat $25-per-month tax credit,
+regardless of the amount of tax collected. 72 PA. STAT. § 7227.  
+13 1 PA. CONS. STAT. § 1504.  
+14 72 PA. STAT. §§ 7252; 10003.1(a).  
+15 _Lilian v. Commonwealth_ , 354 A.2d 250 (Pa. 1976).  
+16 For example, another Pennsylvania federal court dismissed a sales tax
+lawsuit by the Online Merchants Guild against the Department seeking
+declaratory and injunctive relief over the Department’s sales tax registration
+demands of remote sellers. _Online Merchants Guild v. Hassell_ , No.
+1:21-CV-369, U.S. District Court for the Middle District of Pennsylvania,
+dismissed May 28, 2021. Earlier this year, an Illinois federal court refused
+to grant a temporary restraining order against California for pursuing back
+sales taxes from a Chicago-based online merchant, citing that the federal Tax
+Injunction Act constrains the court from enjoining a tax when a remedy is
+available in state court. _Rubinas v. Maduros_ , No. 21-CV-96, U.S. District
+Court for the Northern District of Illinois, motion denied Jan. 18, 2021.  
+17 The taxpayer’s lawsuit was dismissed with prejudice, meaning that the
+taxpayer may not address the issues with its complaint or re-file the
+complaint. A dismissal with prejudice is typically reserved for a lawsuit in
+which the court determines there are no judiciable questions to resolve.  
+18 It should be noted that Pennsylvania provides retailers the first right to
+file refund claims for over-reported sales tax, but that right may be assigned
+to the customer. This provides a so-called “group refund” procedure whereby
+the retailer returns the over-collected sales tax to the applicable customers
+if successful on the refund claim. However, customers are forced to pursue
+sales tax refunds individually where retailers decline to do so and assign
+their rights to the customer.
+
+
+
+
+
+Share with your network
+
+
+
+Share
+
+
+
+Submit RFP
+
+
+
+RFP
+
+
+
+Partner and National SALT Practice Indirect Tax Services Leader  
+
+
+
+Matthew Melinson is a partner in Grant Thornton's Philadelphia office and the
+national leader of the SALT practice's indirect tax services. Melinson is
+responsible for all aspects of multistate tax consulting and planning and
+compliance related to income tax, franchise tax, sales and use tax, credits
+and incentives, real estate tax, and personal property tax.
+
+
+
+Philadelphia, Pennsylvania
+
+
+
+Managing Director, State and Local Tax Services  
+
+
+
+Jerry Glynn is a State and Local Tax practice managing director. Prior to
+joining Grant Thornton, Glynn was a director of LECG/SMART’s tax practice with
+more than 24 years of state and local income, franchise and sales/use tax
+experience.
+
+
+
+Philadelphia, Pennsylvania
+
+
+
+Senior Manager, Tax  
+
+
+
+Philadelphia, Pennsylvania
+
+
+
+Philadelphia  
+
+
+
+Principal, SALT Services  
+National Tax Office Leader
+
+
+
+Jamie Yesnowitz, principal serving as the State and Local Tax (SALT) leader
+within Grant Thornton's Washington National Tax Office, is a national
+technical resource for Grant Thornton's SALT practice. He has 22 years of
+broad-based SALT consulting experience at the national and practice office
+levels in large public accounting firms.
+
+
+
+Washington DC, Washington DC
+
+
+
+Director, Tax  
+
+
+
+Chicago, Illinois
+
+
+
+Director, Tax  
+
+
+
+Cincinnati, Ohio
+
+
+
+This content supports Grant Thornton LLP’s marketing of professional services
+and is not written tax advice directed at the particular facts and
+circumstances of any person. If you are interested in the topics presented
+herein, we encourage you to contact us or an independent tax professional to
+discuss their potential application to your particular situation. Nothing
+herein shall be construed as imposing a limitation on any person from
+disclosing the tax treatment or tax structure of any matter addressed herein.
+To the extent this content may be considered to contain written tax advice,
+any written advice contained in, forwarded with or attached to this content is
+not intended by Grant Thornton LLP to be used, and cannot be used, by any
+person for the purpose of avoiding penalties that may be imposed under the
+Internal Revenue Code.  
+  
+The information contained herein is general in nature and is based on
+authorities that are subject to change. It is not, and should not be construed
+as, accounting, legal or tax advice provided by Grant Thornton LLP to the
+reader. This material may not be applicable to, or suitable for, the reader’s
+specific circumstances or needs and may require consideration of tax and
+nontax factors not described herein. Contact Grant Thornton LLP or other tax
+professionals prior to taking any action based upon this information. Changes
+in tax laws or other factors could affect, on a prospective or retroactive
+basis, the information contained herein; Grant Thornton LLP assumes no
+obligation to inform the reader of any such changes. All references to
+“Section,” “Sec.,” or “§” refer to the Internal Revenue Code of 1986, as
+amended.
+
+
+
+No Results Found. Please search again using different keywords and/or filters.
+
+
+
+© 2022 Grant Thornton LLP - “Grant Thornton” refers to the brand under which
+the Grant Thornton member firms provide assurance, tax and advisory services
+to their clients and/or refers to one or more member firms, as the context
+requires. GTIL refers to Grant Thornton International Ltd (GTIL). Grant
+Thornton LLP is a member firm of GTIL. GTIL and each member firm of GTIL is a
+separate legal entity. GTIL is a nonpracticing umbrella entity organized as a
+private company limited by guarantee incorporated in England and Wales. GTIL
+does not deliver services in its own name or at all.
+
