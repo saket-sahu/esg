@@ -15,16 +15,39 @@
 }
 
 .flex-container {
-    display: flex;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .flex-container>div {
 
-    width: 50%;
+    width: 100%;
     margin: 10px;
     text-align: center;
 
+}
+
+.flex-container-category {
+    display: flex;
+
+}
+
+.flex-container-category>div{
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container-vertical {
+    
+    display: flex;
+    flex-direction: column;
+   
+        margin: 10px;
+        text-align: center;
+}
+
+.padtp10{
+    padding-top: 10px;
 }
 
 .mrgtop50{
