@@ -14,36 +14,92 @@
             </mat-form-field>
         </form>
     </div>
-    <div class="flex-container">
-        <div *ngIf="result.length>0" class="flex-container">
-            <mat-card [ngStyle]="{'background-color': companyESG_flag}" (click)="openDialog()">
-                <mat-card-content>
-                    <div [innerHtml]="companyInfo"></div>
-                </mat-card-content>
-            </mat-card>
+    <div *ngIf="result.length>0">
+        <div  class="flex-container-vertical">
+            <div >
+                <mat-card [ngStyle]="{'background-color': companyESG_flag}"  (click)="openDialog()">
+                    <mat-card-content>
+                        <div [innerHtml]="companyInfo"></div>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div >
+                <div  class="flex-container-category">   
+                    <div  class="flex-container-vertical">
+                        <div>
+                            <mat-card [ngStyle]="{'background-color': Environment_flag}"  >
+                                <mat-card-content>
+                                    <span>Environment</span>
+                                </mat-card-content>
+                            </mat-card>
+                        </div> 
+                        <div class="flex-container">
+                            <div>
+                                <mat-card [ngStyle]="{'background-color': Environment_flag}"  >
+                                    <mat-card-content>
+                                        <span>Environment</span>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </div>                       
+                    </div>            
+                    <div  class="flex-container-vertical"> 
+                        <div>
+                            <mat-card [ngStyle]="{'background-color': Social_flag}"  >
+                                <mat-card-content>
+                                    <span>Social</span>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="flex-container">
+                            <div>
+                                <mat-card [ngStyle]="{'background-color': Social_Customers_Flag}"  >
+                                    <mat-card-content>
+                                        <span>Customers</span>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div>
+                                <mat-card [ngStyle]="{'background-color': Social_Human_Flag}"  >
+                                    <mat-card-content>
+                                        <span>Human rights</span>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                            <div>
+                                <mat-card [ngStyle]="{'background-color': Social_Labour_Flag}"  >
+                                    <mat-card-content>
+                                        <span>Labour rights</span>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </div>
+                        
+                    </div>  
+                    <div  class="flex-container-vertical">
+                        <div>
+                            <mat-card [ngStyle]="{'background-color': Governance_flag}"  >
+                                <mat-card-content>
+                                    <span>Governance</span>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="flex-container">
+                            <div>
+                                <mat-card [ngStyle]="{'background-color': Governance_Governance_Flag}"  >
+                                    <mat-card-content>
+                                        <span>Governance</span>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </div>
+                        
+                    </div>                        
+                </div>
+            </div>
+            
         </div>
 
-        <div *ngIf="result.length>0" class="flex-container">
-            <mat-card [ngStyle]="{'background-color': Environment_flag, 'margin-left':'2px'}" (click)="openDialog()">
-                <mat-card-content class="flex-container">
-                    <span >Environment</span>
-                    
-                </mat-card-content>
-            </mat-card>
-            <mat-card [ngStyle]="{'background-color': Social_flag,'margin-left':'2px'}" (click)="openDialog()">
-                <mat-card-content class="flex-container">
-                    
-                    <span >Social</span>
-                    
-                </mat-card-content>
-            </mat-card>
-            <mat-card [ngStyle]="{'background-color': Governance_flag,'margin-left':'2px'}" (click)="openDialog()">
-                <mat-card-content class="flex-container">
-                   
-                    <span >Governance</span>
-                </mat-card-content>
-            </mat-card>
-        </div>
     </div>
 
 </div>

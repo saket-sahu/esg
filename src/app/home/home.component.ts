@@ -42,9 +42,19 @@ export class HomeComponent {
   rawDataList: any = dataList;
   worstNews: News = {};
   companyESG_flag: string = 'green';
-  Environment_flag: string = 'red';
+
+  Environment_flag: string = 'green';
   Social_flag: string = 'green';
-  Governance_flag: string = 'orange';
+  Governance_flag: string = 'green';
+
+  Environment_Environment_Flag: string = 'green';
+
+  Social_Customers_Flag: string = 'green';
+  Social_Human_Flag: string = 'green';
+  Social_Labour_Flag: string = 'green';
+
+  Governance_Governance_Flag: string = 'green';
+
   companyInfo: string = '';
   filteredOptions: any;
   showChart: boolean = false;
@@ -253,7 +263,35 @@ export class HomeComponent {
       this.result.filter((item) => item.PILLAR == 'Governance')
     );
 
-    newsList = this.rawDataList.filter(
+    this.Environment_Environment_Flag = this._getFlag(
+      this.result
+        .filter((item) => item.PILLAR == 'Environment')
+        .filter((item) => item.SUB_PILLAR == 'Environment')
+    );
+
+    this.Social_Customers_Flag = this._getFlag(
+      this.result
+        .filter((item) => item.PILLAR == 'Social')
+        .filter((item) => item.SUB_PILLAR == 'Customers')
+    );
+    this.Social_Human_Flag = this._getFlag(
+      this.result
+        .filter((item) => item.PILLAR == 'Social')
+        .filter((item) => item.SUB_PILLAR == 'Human rights and community')
+    );
+    this.Social_Labour_Flag = this._getFlag(
+      this.result
+        .filter((item) => item.PILLAR == 'Social')
+        .filter((item) => item.SUB_PILLAR == 'Labour rights and supply chain')
+    );
+
+    this.Governance_Governance_Flag = this._getFlag(
+      this.result
+        .filter((item) => item.PILLAR == 'Governance')
+        .filter((item) => item.SUB_PILLAR == 'Governance')
+    );
+
+    this.Environment_Environment_Flag = newsList = this.rawDataList.filter(
       (item: NewsClassisfication) =>
         item.FLAG?.toLocaleLowerCase() ==
         this.companyESG_flag.toLocaleLowerCase()
