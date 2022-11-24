@@ -1,0 +1,188 @@
+Log In
+
+
+
+FinPro
+
+
+
+For Industry Professionals
+
+
+
+Registered representatives can fulfill Continuing Education requirements, view
+their industry CRD record and perform other compliance tasks.
+
+
+
+FINRA Gateway
+
+
+
+For Member Firms
+
+
+
+Firm compliance professionals can access filings and requests, run reports and
+submit support tickets.
+
+
+
+DR Portal
+
+
+
+For Case Participants
+
+
+
+Arbitration and mediation case participants and FINRA neutrals can view case
+information and submit documents through this Dispute Resolution Portal.
+
+
+
+Need Help? | Check Systems Status
+
+
+
+Log In to other FINRA systems
+
+
+
+Rita De Ramos (646) 315-7255
+
+
+
+WASHINGTON—FINRA announced today that it has fined Barclays Capital Inc.
+(Barclays Capital) $2 million for failing to comply with its best execution
+obligations in connection with its customers’ electronic equity orders.
+
+
+
+From January 2014 through February 2019, Barclays Capital owned and operated
+an alternative trading system known as LX. Barclays Capital routed all its
+customers’ marketable orders to LX, prior to routing to any competing venue,
+if the order could be filled in LX completely or partially at the National
+Best Bid and Offer or better, unless customers opted out of this routing
+preference.
+
+
+
+Barclays Capital failed to conduct reasonable reviews of execution quality for
+its customers’ orders. The firm did not review price improvement data for
+orders routed to LX. The firm also did not review speed of execution for any
+of the venues to which it routed customers’ orders or consider whether the
+firm could have obtained better execution speed from competing markets.
+
+
+
+Barclays Capital also failed to consider alternate routing arrangements even
+when the firm’s own data showed that fill rates in LX were inferior to fill
+rates at some competing venues. Specifically, the reports reviewed by the
+firm’s Best Execution Working Group indicated that marketable orders routed to
+LX received lower fill rates as compared to certain competing venues. These
+reports showed that LX delivered a lower fill rate than the average fill rate
+of competing venues for every quarter from 2015 to the first quarter of 2019.
+
+
+
+In addition, Barclays Capital’s supervisory system was not reasonably designed
+to achieve compliance with its best execution obligations because the firm
+failed to reasonably review for price improvement for orders routed to LX and
+speed of execution for any venue. The firm’s written supervisory procedures
+also failed to provide reasonable guidance on the factors the firm should
+consider in determining whether to modify its routing practices.
+
+
+
+“FINRA continues to prioritize broker-dealers’ compliance with best execution
+requirements when handling their customers’ orders,” said Jessica Hopper,
+Executive Vice President and Head of FINRA’s Department of Enforcement. “Firms
+must continuously monitor their reviews of execution quality and make changes
+accordingly.”
+
+
+
+FINRA Rule 5310—Best Execution—requires firms to seek the most favorable terms
+reasonably available for their customers’ orders. To meet this obligation,
+firms must conduct reviews to evaluate the order execution quality their
+customers receive under the firm’s current routing arrangements, as well as
+the execution quality their customer orders could receive through different
+routing arrangements. Rule 5310 lists several factors that firms should
+consider when conducting these reviews, including price improvement
+opportunities and speed of execution.
+
+
+
+FINRA included best execution as a topic in its 2022 and 2021 FINRA
+Examination and Risk Monitoring Program reports, as well as its 2020 and 2019
+Annual Risk Monitoring and Examination Priorities letters.
+
+
+
+In settling this matter, Barclays Capital consented to the entry of FINRA’s
+findings without admitting or denying them.
+
+
+
+ **About FINRA**
+
+
+
+FINRA is a not-for-profit organization dedicated to investor protection and
+market integrity. It regulates one critical part of the securities
+industry—brokerage firms doing business with the public in the United States.
+FINRA, overseen by the SEC, writes rules, examines for and enforces compliance
+with FINRA rules and federal securities laws, registers broker-dealer
+personnel and offers them education and training, and informs the investing
+public. In addition, FINRA provides surveillance and other regulatory services
+for equities and options markets, as well as trade reporting and other
+industry utilities. FINRA also administers a dispute resolution forum for
+investors and brokerage firms and their registered employees. For more
+information, visit www.finra.org.
+
+
+
+
+
+Subscribe to Updates
+
+
+
+ARBITRATION & MEDIATION
+
+
+
+General Inquiries
+
+
+
+Securities Helpline for Seniors®
+
+
+
+File a Regulatory Tip
+
+
+
+File an Investor Complaint
+
+
+
+Small Firm Help Line
+
+
+
+Office of the Ombudsman
+
+
+
+
+
+© FINRA. All Rights Reserved.
+
+
+
+FINRA IS A REGISTERED TRADEMARK OF THE FINANCIAL INDUSTRY REGULATORY
+AUTHORITY, INC.
+
